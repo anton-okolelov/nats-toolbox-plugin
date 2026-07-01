@@ -1,0 +1,86 @@
+---
+import "../styles/global.css";
+import heroImage from "../assets/screenshots/messages.png";
+
+const {
+  title,
+  description,
+  eyebrow,
+  lead,
+  primaryCtaLabel,
+  primaryCtaUrl,
+  secondaryCtaLabel,
+  secondaryCtaUrl,
+} = Astro.props.frontmatter;
+
+const base = import.meta.env.BASE_URL;
+const assetBase = base.endsWith("/") ? base : `${base}/`;
+const asset = (path: string) => `${assetBase}${path.replace(/^\/+/, "")}`;
+const canonicalUrl = new URL(base, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#111315" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" href={asset("icon.svg")} type="image/svg+xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(heroImage.src, Astro.site)} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>{title}</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href={base} aria-label="NATS Toolbox home">
+        <img src={asset("icon.svg")} width="32" height="32" alt="" />
+        <span>NATS Toolbox</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#features">Features</a>
+        <a href="#workflow">Workflow</a>
+        <a href={secondaryCtaUrl}>GitHub</a>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        class="hero"
+        style={`--hero-image: url("${heroImage.src}")`}
+        aria-labelledby="hero-title"
+      >
+        <div class="hero-shade"></div>
+        <div class="hero-content">
+          <p class="eyebrow">{eyebrow}</p>
+          <h1 id="hero-title">NATS Toolbox</h1>
+          <p class="hero-lead">{lead}</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href={primaryCtaUrl}>{primaryCtaLabel}</a>
+            <a class="button button-secondary" href={secondaryCtaUrl}>{secondaryCtaLabel}</a>
+          </div>
+        </div>
+      </section>
+
+      <article class="markdown-content">
+        <slot />
+      </article>
+    </main>
+
+    <footer>
+      <div>
+        <a class="brand footer-brand" href={base}>
+          <img src={asset("icon.svg")} width="28" height="28" alt="" />
+          <span>NATS Toolbox</span>
+        </a>
+        <p>Inspect NATS where you write the code that uses it.</p>
+      </div>
+      <p>Built by Anton Okolelov.</p>
+    </footer>
+  </body>
+</html>
