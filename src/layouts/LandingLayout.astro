@@ -9,8 +9,6 @@ const {
   lead,
   primaryCtaLabel,
   primaryCtaUrl,
-  secondaryCtaLabel,
-  secondaryCtaUrl,
 } = Astro.props.frontmatter;
 
 const base = import.meta.env.BASE_URL;
@@ -45,7 +43,6 @@ const canonicalUrl = new URL(base, Astro.site);
       <nav aria-label="Primary navigation">
         <a href="#features">Features</a>
         <a href="#workflow">Workflow</a>
-        <a href={secondaryCtaUrl}>GitHub</a>
       </nav>
     </header>
 
@@ -62,7 +59,6 @@ const canonicalUrl = new URL(base, Astro.site);
           <p class="hero-lead">{lead}</p>
           <div class="hero-actions">
             <a class="button button-primary" href={primaryCtaUrl}>{primaryCtaLabel}</a>
-            <a class="button button-secondary" href={secondaryCtaUrl}>{secondaryCtaLabel}</a>
           </div>
         </div>
       </section>

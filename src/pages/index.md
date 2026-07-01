@@ -6,8 +6,6 @@ eyebrow: A focused NATS client for IntelliJ IDEA
 lead: Search stored messages, follow live traffic, inspect Key/Value data, and call NATS services without leaving your IDE.
 primaryCtaLabel: Request early access
 primaryCtaUrl: "mailto:anton.okolelov@gmail.com?subject=NATS%20Toolbox%20early%20access"
-secondaryCtaLabel: View on GitHub
-secondaryCtaUrl: https://github.com/anton-okolelov/nats-toolbox-plugin
 ---
 
 <span id="features"></span>
@@ -67,5 +65,4 @@ NATS Toolbox is built for developers debugging real systems: focused controls,
 bounded live views, progressive results, and no separate desktop client to keep
 in sync.
 
-[Request early access](mailto:anton.okolelov@gmail.com?subject=NATS%20Toolbox%20early%20access)
-or [follow the public repository](https://github.com/anton-okolelov/nats-toolbox-plugin).
+[Request early access](mailto:anton.okolelov@gmail.com?subject=NATS%20Toolbox%20early%20access).
