@@ -1,0 +1,51 @@
+---
+import "../styles/global.css";
+
+const { title, description } = Astro.props.frontmatter;
+
+const base = import.meta.env.BASE_URL;
+const assetBase = base.endsWith("/") ? base : `${base}/`;
+const asset = (path: string) => `${assetBase}${path.replace(/^\/+/, "")}`;
+const canonicalUrl = new URL(`${assetBase}eula/`, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#111315" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="icon" href={asset("icon.svg")} type="image/svg+xml" />
+    <title>{title}</title>
+  </head>
+  <body class="legal-page">
+    <header class="site-header">
+      <a class="brand" href={base} aria-label="NATS Toolbox home">
+        <img src={asset("icon.svg")} width="32" height="32" alt="" />
+        <span>NATS Toolbox</span>
+      </a>
+      <nav aria-label="Legal page navigation">
+        <a href={base}>Back to product</a>
+      </nav>
+    </header>
+
+    <main>
+      <article class="legal-content">
+        <slot />
+      </article>
+    </main>
+
+    <footer>
+      <div>
+        <a class="brand footer-brand" href={base}>
+          <img src={asset("icon.svg")} width="28" height="28" alt="" />
+          <span>NATS Toolbox</span>
+        </a>
+        <p>Inspect NATS where you write the code that uses it.</p>
+      </div>
+      <p>Built by Anton Okolelov.</p>
+    </footer>
+  </body>
+</html>
