@@ -6,124 +6,182 @@ description: End User License Agreement for the NATS Toolbox plugin by Anton Oko
 
 # End User License Agreement for NATS Toolbox
 
-**Effective date: July 1, 2026**
+This EULA is concluded between You and Anton Okolelov ("Developer") with respect
+to NATS Toolbox ("Plugin").
 
-This End User License Agreement ("EULA") is concluded between you and Anton
-Okolelov ("Developer") and governs your use of the NATS Toolbox plugin
-("Plugin"). By installing or using the Plugin, you agree to this EULA.
-
-The Developer, not JetBrains, licenses the Plugin to you. JetBrains is not a
-party to this EULA and is not responsible or liable for the Plugin or its use.
+The Developer, not JetBrains, licenses the Plugin to You. JetBrains is not a
+party to this EULA and, to the maximum extent permitted by applicable law, is not
+responsible or liable for the Plugin or its use.
 
 ## 1. Definitions
 
-**"Confirmation"** means an email or other confirmation from JetBrains describing
-your right to use the Plugin and any applicable license or subscription limits.
+**"Confirmation"** means an email from JetBrains confirming Your rights to use a
+Paid Plugin and containing important information about Your license or
+Subscription.
 
-**"Documentation"** means the latest technical documentation for the Plugin
-available on JetBrains Marketplace or otherwise provided by the Developer.
+**"Developer"** means Anton Okolelov.
 
-**"Fallback Date"** means the date twelve months before your Subscription
-expired.
+**"Documentation"** means the latest versions of all online technical
+documentation available for the Plugin on JetBrains Marketplace and any other
+relevant Plugin documentation provided either by JetBrains or the Developer that
+applies to the Plugin.
 
-**"Fallback Version"** means the most recent Plugin version that the Developer
-made available for public purchase before the Fallback Date, together with any
-bug-fix updates made available for that version.
+**"Fallback Date"** means the date falling twelve (12) months prior to the date
+Your Subscription expired.
 
-**"JetBrains"** means JetBrains s.r.o. and its affiliates.
+**"Fallback Version"** means the most recent Plugin Version that the Developer
+made available for public purchase prior to the Fallback Date, along with any
+bug-fix updates for that Plugin Version. The Fallback Version does not include
+any Plugin updates or upgrades other than bug-fix updates that You may have used
+in the period between the Fallback Date and the expiration date of Your
+Subscription. For more information, see the
+[JetBrains licensing FAQ](https://sales.jetbrains.com/hc/en-gb).
 
-**"JetBrains Marketplace"** means a platform operated by JetBrains on which the
-Plugin is made available.
+**"Free Plugin"** means a Plugin that is offered at no cost.
 
-**"JetBrains Product"** means software or a service made available by JetBrains.
+**"JetBrains"** means JetBrains s.r.o., which has its registered office at Na
+Hřebenech II 1718/8, Prague, 14000, Czech Republic, registered with the
+Commercial Register kept by the Municipal Court of Prague, Section C, file
+86211, ID.Nr.: 265 02 275.
 
-**"Plugin User"** means a user who can access and use the Plugin.
+**"JetBrains Affiliate"** means the subsidiary and/or any associated companies
+of JetBrains.
 
-**"Subscription"** means your time-limited right to use the Plugin under the
-terms stated in your Confirmation.
+**"JetBrains Marketplace"** means any platform operated by JetBrains or a
+JetBrains Affiliate on which JetBrains or a JetBrains Affiliate markets Plugins
+for JetBrains Products, including the website
+[plugins.jetbrains.com](https://plugins.jetbrains.com) and/or any other website
+or platform, whether named JetBrains Marketplace, JetBrains Plugins Repository,
+or otherwise.
 
-**"Subscription Period"** means the subscription period stated in your
+**"JetBrains Product"** means any software program or service made available by
+JetBrains.
+
+**"Paid Plugin"** means a Plugin that is offered for a fee, which can be either a
+one-time license fee or a recurring subscription fee.
+
+**"Plugin"** means NATS Toolbox, a software plugin designed to work with
+JetBrains Products that the Developer makes available under this EULA.
+
+**"Plugin Users"** means users that are able to access and use the Plugin
+concurrently.
+
+**"Plugin Version"** means a release, update, or upgrade of the Plugin that is not
+identified by the Developer as being made for the purpose of fixing software
+bugs.
+
+**"Subscription"** means Your right to use a Paid Plugin during the Subscription
+Period.
+
+**"Subscription Period"** means the Subscription period described in Your
 Confirmation.
 
-**"You"** means the individual or legal entity accepting this EULA.
+**"You"** means an individual or an entity concluding this EULA.
 
-## 2. Grant of license
+## 2. Grant of License
 
-Subject to this EULA, your Confirmation, and the Documentation, the Developer
-grants you a limited, worldwide, non-exclusive, and non-transferable license to:
+### 2.1. License
 
-1. install and use the Plugin within the license limits stated in your
-   Confirmation; and
-2. make reasonable backup copies solely for archival purposes.
+The Developer hereby grants You a limited, worldwide, non-exclusive,
+non-transferable license to use the Plugin, including any generally available
+updates and upgrades released during Your rightful use of the Plugin, as long as
+the use is in line with Your Confirmation, the Documentation, and the limits set
+out in this EULA. You may:
 
-Except where applicable law expressly permits it, you may not modify,
-reverse-engineer, decompile, disassemble, sublicense, distribute, or create
-derivative works from the Plugin without the Developer's prior written
-permission.
+1. install the Plugin;
+2. use the Plugin subject to the limits described in Your Confirmation, if any;
+   and
+3. make backup copies of the Plugin for archival purposes.
 
-For a one-time paid license, the license is perpetual unless terminated under
-this EULA. For a subscription license, the license lasts for the Subscription
-Period, subject to any fallback rights stated in your Confirmation.
+### 2.2. Restrictions
 
-## 3. Subscription and fallback rights
+You may not modify, reverse-engineer, decompile, or disassemble the Plugin in
+whole or in part, create any derivative works from the Plugin, or sublicense any
+rights to the Plugin, unless otherwise expressly authorized in writing by the
+Developer.
 
-You must comply with the limits of your subscription plan, including any limit
-on the number of Plugin Users. The Subscription Period may be monthly, annual,
-or another period stated in your Confirmation.
+### 2.3. Duration of License
 
-If your Confirmation includes a fallback license and your uninterrupted paid
-Subscription lasted for at least twelve months, then after the Subscription
-expires you may continue using the Fallback Version on a perpetual,
-non-exclusive, non-transferable, and royalty-free basis. This fallback right is
-subject to your full compliance with this EULA and full payment of all applicable
-fees.
+The license granted under this EULA can be provided as:
 
-## 4. Intellectual property
+1. perpetual in the case of Free Plugins or Paid Plugins for which You are
+   charged a one-time license fee; and
+2. time-limited for the duration of Your Subscription Period in the case of Paid
+   Plugins for which You pay an annual or monthly Subscription fee.
 
-The Plugin is protected by copyright and other intellectual property laws. The
-Developer and the Developer's licensors retain all title, copyright, and other
-intellectual property rights in the Plugin. No ownership rights are transferred
-to you under this EULA.
+For more details about the type of Paid Plugin, see the information in Your
+Confirmation.
 
-## 5. Disclaimer of warranty
+## 3. Subscription
 
-**THE PLUGIN IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF ANY
-KIND. YOU INSTALL AND USE THE PLUGIN ENTIRELY AT YOUR OWN RISK.**
+### 3.1. Subscription Limits
 
-To the maximum extent permitted by applicable law, the Developer disclaims all
-express, implied, and statutory warranties and conditions, including warranties
-of merchantability, fitness for a particular purpose, title, non-infringement,
-accuracy, reliability, availability, security, and uninterrupted or error-free
-operation.
+If You purchased a Plugin Subscription, You must use the Paid Plugin in
+accordance with the limits described in Your subscription plan. For example, You
+must ensure that the maximum number of Plugin Users does not exceed the number of
+Plugin Users for which You have purchased the Subscription.
 
-The Developer does not warrant that the Plugin will meet your requirements, that
-defects will be corrected, that the Plugin will be compatible with every
-environment, or that it will be free from harmful components. Updates, upgrades,
-and support are provided only as available and at the Developer's discretion,
-except where applicable law requires otherwise.
+### 3.2. Subscription Period
 
-## 6. Limitation of liability
+The Subscription Period can be either annual or monthly.
 
-**TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE DEVELOPER WILL NOT BE
-LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR
-CONSEQUENTIAL LOSS, COST, OR DAMAGE ARISING FROM OR RELATED TO THE PLUGIN OR ITS
-USE.**
+### 3.3. Fallback License
 
-This exclusion includes loss of profits, revenue, business, goodwill, data,
-systems, or services, business interruption, and the cost of substitute goods or
-services, regardless of the legal theory and even if the Developer was advised
-that such loss or damage was possible.
+If the Plugin is provided with a Fallback license according to the Confirmation,
+following the expiration of the Subscription Period without a renewal, Your
+license to use the Plugin as stipulated in Section 2 will continue on a
+perpetual, royalty-free, non-exclusive, and non-transferable basis with respect
+to the Fallback Version of the Plugin, including all limitations. The granting
+of the Fallback license is expressly contingent upon Your compliance with this
+EULA, including Your payment of the applicable Subscription fees for at least
+the preceding twelve (12) months in full and without interruptions.
 
-To the maximum extent permitted by applicable law, the Developer's total
-aggregate liability arising from or related to this EULA or the Plugin will not
-exceed the fees you paid for the Plugin through JetBrains Marketplace during the
-three months immediately preceding the event giving rise to the claim.
+## 3. Intellectual Property
 
-These limitations apply even if a remedy fails its essential purpose. Nothing in
-this EULA excludes or limits liability that cannot lawfully be excluded or
-limited under applicable law.
+The Plugin is protected by copyright and other intellectual property laws and
+treaties. The Developer or its licensors own all title, copyright, and other
+intellectual property rights to the Plugin.
 
-JetBrains is not a party to the contractual relationship between you and the
-Developer. To the maximum extent permitted by applicable law, JetBrains has no
-responsibility or liability arising from this EULA, the Plugin, or your use of
-the Plugin.
+## 4. Disclaimer of Warranty
+
+**THE PLUGIN IS PROVIDED TO YOU ON AN "AS-IS" AND "AS AVAILABLE" BASIS WITHOUT
+WARRANTIES. YOUR USE OF THE PLUGIN IS AT YOUR OWN RISK. THE DEVELOPER PROVIDES NO
+WARRANTY AS TO THE PLUGIN'S USE OR PERFORMANCE.**
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE DEVELOPER DISCLAIMS ALL
+OTHER WARRANTIES AND CONDITIONS, EITHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT
+LIMITED TO, IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE, TITLE, AND NON-INFRINGEMENT, WITH REGARD TO THE PLUGIN AND THE PROVISION
+OF OR FAILURE TO PROVIDE SUPPORT SERVICES.
+
+THE DEVELOPER DOES NOT WARRANT THAT THE PLUGIN IS ACCURATE, RELIABLE, OR CORRECT;
+THAT THE PLUGIN MEETS YOUR REQUIREMENTS; THAT THE PLUGIN WILL BE AVAILABLE AT ANY
+PARTICULAR TIME OR LOCATION, UNINTERRUPTED, OR SECURE; THAT ANY DEFECTS OR ERRORS
+WILL BE CORRECTED; OR THAT THE PLUGIN IS FREE OF VIRUSES OR OTHER HARMFUL
+COMPONENTS. EXCEPT AS REQUIRED BY APPLICABLE LAW, ANY UPDATES AND UPGRADES TO THE
+PLUGIN WILL ONLY BE PROVIDED ON AN "AS AVAILABLE" BASIS, AT THE DEVELOPER'S SOLE
+DISCRETION.
+
+## 5. Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT WILL THE DEVELOPER
+BE LIABLE FOR ANY DIRECT OR INDIRECT COSTS, LOSSES, OR DAMAGES ASSOCIATED WITH
+THE USE OF THE PLUGIN.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE DEVELOPER WILL NOT BE
+LIABLE TO YOU FOR ANY LOST PROFITS OR CONSEQUENTIAL DAMAGES, NO MATTER THE CAUSE
+OF THOSE PROFITS OR DAMAGES. THE DEVELOPER'S AGGREGATE LIABILITY ARISING OUT OF
+OR RELATED TO THIS EULA OR THE USE OF THE PLUGIN WILL NOT EXCEED THE FEES THAT
+YOU PAID FOR THE PLUGIN VIA JETBRAINS MARKETPLACE IN THE THREE-MONTH PERIOD
+PRECEDING THE CLAIM.
+
+THIS LIMITATION WILL APPLY EVEN IF THE DEVELOPER HAS BEEN ADVISED OF THE
+POSSIBILITY OF LIABILITY EXCEEDING THAT AMOUNT AND NOTWITHSTANDING ANY FAILURE OF
+ESSENTIAL PURPOSE OF ANY LIMITED REMEDY.
+
+NOTHING IN THIS EULA EXCLUDES OR LIMITS LIABILITY THAT CANNOT LAWFULLY BE
+EXCLUDED OR LIMITED UNDER APPLICABLE LAW.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, JETBRAINS' LIABILITY IS
+EXCLUDED IN ITS ENTIRETY BECAUSE JETBRAINS IS NOT A PARTY TO THE CONTRACTUAL
+RELATIONSHIP BETWEEN THE DEVELOPER AND YOU.
