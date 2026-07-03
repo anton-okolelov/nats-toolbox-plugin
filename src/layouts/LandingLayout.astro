@@ -43,6 +43,7 @@ const canonicalUrl = new URL(base, Astro.site);
       <nav aria-label="Primary navigation">
         <a href="#features">Features</a>
         <a href="#workflow">Workflow</a>
+        <a href={asset("getting-started/")}>Getting Started</a>
       </nav>
     </header>
 
@@ -78,6 +79,7 @@ const canonicalUrl = new URL(base, Astro.site);
       </div>
       <p>
         Built by Anton Okolelov.
+        <a class="footer-link" href={asset("getting-started/")}>Getting Started</a>
         <a class="footer-link" href={asset("eula/")}>EULA</a>
       </p>
     </footer>

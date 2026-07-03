@@ -1,5 +1,5 @@
 ---
-layout: ../layouts/LegalLayout.astro
+layout: ../layouts/ContentLayout.astro
 title: NATS Toolbox End User License Agreement
 description: End User License Agreement for the NATS Toolbox plugin by Anton Okolelov.
 ---
