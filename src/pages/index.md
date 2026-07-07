@@ -4,8 +4,8 @@ title: NATS Toolbox for IntelliJ IDEA
 description: Explore JetStream, Core NATS, Key/Value buckets, and NATS services directly inside IntelliJ IDEA.
 eyebrow: A focused NATS client for IntelliJ IDEA
 lead: Search stored messages, follow live traffic, inspect Key/Value data, and call NATS services without leaving your IDE.
-primaryCtaLabel: Request early access
-primaryCtaUrl: "mailto:anton.okolelov@gmail.com?subject=NATS%20Toolbox%20early%20access"
+primaryCtaLabel: Install from JetBrains Marketplace
+primaryCtaUrl: "https://plugins.jetbrains.com/plugin/32647-nats-toolbox"
 ---
 
 <span id="features"></span>
@@ -56,8 +56,7 @@ that produces and consumes it.
 - Connect with tokens, user/password, NKeys, credentials, and TLS
 - Continue using Core NATS when JetStream is unavailable
 
-> NATS Toolbox is being prepared as a paid JetBrains Marketplace plugin. Early
-> access users will help shape the first public release.
+> NATS Toolbox is available as a paid JetBrains Marketplace plugin.
 
 ## Work with NATS without changing mental context
 
@@ -65,4 +64,4 @@ NATS Toolbox is built for developers debugging real systems: focused controls,
 bounded live views, progressive results, and no separate desktop client to keep
 in sync.
 
-[Request early access](mailto:anton.okolelov@gmail.com?subject=NATS%20Toolbox%20early%20access).
+[Install NATS Toolbox from JetBrains Marketplace](https://plugins.jetbrains.com/plugin/32647-nats-toolbox).

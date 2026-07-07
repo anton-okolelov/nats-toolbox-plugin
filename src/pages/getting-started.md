@@ -14,7 +14,8 @@ resources.
 
 1. Open **Settings | Plugins** in your JetBrains IDE.
 2. Select the **Marketplace** tab.
-3. Search for **NATS Toolbox**.
+3. Search for **NATS Toolbox**, or open the
+   [JetBrains Marketplace page](https://plugins.jetbrains.com/plugin/32647-nats-toolbox).
 4. Click **Install** and restart the IDE if prompted.
 
 ## 2. Create a connection

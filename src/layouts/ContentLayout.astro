@@ -7,6 +7,7 @@ const base = import.meta.env.BASE_URL;
 const assetBase = base.endsWith("/") ? base : `${base}/`;
 const asset = (path: string) => `${assetBase}${path.replace(/^\/+/, "")}`;
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
+const marketplaceUrl = "https://plugins.jetbrains.com/plugin/32647-nats-toolbox";
 ---
 
 <!doctype html>
@@ -28,6 +29,7 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
       </a>
       <nav aria-label="Content page navigation">
         <a href={base}>Back to product</a>
+        <a href={marketplaceUrl}>Marketplace</a>
       </nav>
     </header>
 
@@ -46,6 +48,7 @@ const canonicalUrl = new URL(Astro.url.pathname, Astro.site);
         <p>Inspect NATS where you write the code that uses it.</p>
       </div>
       <p>
+        <a class="footer-link" href={marketplaceUrl}>Marketplace</a>
         <a class="footer-link" href={asset("getting-started/")}>Getting Started</a>
         <a class="footer-link" href={asset("eula/")}>EULA</a>
       </p>
